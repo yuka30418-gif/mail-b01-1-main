@@ -1,0 +1,21 @@
+<?php
+
+?>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>登入</title>
+</head>
+<body>
+<h2>登入</h2>
+
+<form action="login_process.php" method="post">
+    <label>帳號：<input type="text" name="username" required></label><br>
+    <label>密碼：<input type="password" name="password" required></label><br>
+    <button type="submit">登入</button>
+</form>
+<p>還沒有帳號？<a href="register.php">申請帳號</a></p>
+</body>
+</html>
